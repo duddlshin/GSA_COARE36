@@ -11,8 +11,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear all; clc;
+addpath('src');
 
-N = 10000;   % Sample size = [1000, 10000]
+N = 1000;   % Sample size = [1000, 10000]
 qoi_option = 1;   % Optoins for model output: option 1: fluxes, option 2: transfer coefficients
 
 
