@@ -18,7 +18,7 @@ Repository for project in MIT class 12.870 (Air-Sea Interactions) in which a glo
  
         $S_{T_i} = \frac{ E_{X_{\sim i}} \(Var_{X_{i}} [Y \mid X_{\sim i}] \) }{Var(Y)}$
 
-- Both metrics are estimated using the method in Jansen, 1999. The steps are as follow:
+- Both metrics are estimated using the method in Jansen, 1999 (https://www.sciencedirect.com/science/article/abs/pii/S0010465598001544). The steps are as follow:
 
     1. Two matrices of size ($N \times m$) are initialized where $N$ is the number of samples and $m$ is the number of coefficients. We will call these matrix $A$ and $B$.
     2. These are propagated forward into the model to get response matrices $f(A)$ and $f(B)$ that contain the model outputs given the columns of coefficients.
