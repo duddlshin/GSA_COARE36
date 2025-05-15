@@ -1,4 +1,4 @@
-# GSA_COARE36
+# SensitivityAnalysis_COARE
 
 Repository for project in MIT class 12.870 (Air-Sea Interactions) in which a global sensitivity analysis is conducted for empirical coefficients in the COARE 3.6 algorithm (https://github.com/NOAA-PSL/COARE-algorithm.git).
 
